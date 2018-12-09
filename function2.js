@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports.hello1 = async (event, context) => {
+module.exports.hello2 = async (event, context) => {
   return {
     statusCode: 200,
     body: JSON.stringify({

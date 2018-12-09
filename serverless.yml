@@ -55,10 +55,10 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
-  hello:
-    handler: function1.hello
   hello1:
-    handler: function2.hello1
+    handler: function1.hello1
+  hello2:
+    handler: function2.hello2
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
